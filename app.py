@@ -1,4 +1,5 @@
-# pip install streamlit fbprophet yfinance plotly
+pip install streamlit fbprophet yfinance plotly
+pip install streamlit pandas plotly yfinance fbprophet
 # conda install -c conda-forge prophet ---to escape the errors during forecasting
 
 import streamlit as st
