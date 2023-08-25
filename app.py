@@ -15,7 +15,6 @@ st.set_page_config(page_title="Dashboard", layout="wide")
 st.subheader("Forecasting Application")
 st.markdown("##")
 
-# Load the new dataset
 df = pd.read_csv('superstore.csv')
 
 # Sidebar filters
