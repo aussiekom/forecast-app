@@ -1,6 +1,5 @@
-# pip install streamlit fbprophet yfinance plotly
 # pip install streamlit pandas plotly yfinance fbprophet
-# conda install -c conda-forge prophet ---to escape the errors during forecasting
+# conda install -c conda-forge prophet      ---to escape the errors during forecasting with prophet
 
 import streamlit as st
 import pandas as pd
@@ -11,10 +10,12 @@ from prophet import Prophet
 from prophet.plot import plot_plotly
 from plotly import graph_objs as go
 
+
 st.set_page_config(page_title="Dashboard", layout="wide")
 st.subheader("Forecasting Application")
 st.markdown("##")
 
+# Load the new dataset
 df = pd.read_csv('superstore.csv')
 
 # Sidebar filters
