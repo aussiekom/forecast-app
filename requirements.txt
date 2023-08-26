@@ -21,4 +21,7 @@ plotly-express==0.4.1
 scikit-learn==1.2.2
 seaborn==0.12.2
 pandas-profiling==3.2.0
-prophet==1.1.1
+yfinance==0.2.28
+holidays==0.24
+prophet==1.1.2
+
